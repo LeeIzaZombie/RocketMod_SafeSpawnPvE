@@ -12,13 +12,13 @@ using Rocket.Unturned.Plugins;
 using SDG;
 using Rocket.Unturned.Player;
 
-namespace AntiGroup
+namespace SafeSpawnPvE
 {
-    public class PluginAG : RocketPlugin
+    public class PluginSSPE : RocketPlugin
     {
         public string Name
         {
-            get { return "antigroup"; }
+            get { return "safespawnpve"; }
         }
 
         private void RocketServerEvents_OnPlayerConnected(RocketPlayer player)
